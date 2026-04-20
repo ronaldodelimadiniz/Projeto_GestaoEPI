@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema com o mesmo nome referenciado no AndroidManifest -->
+    <style name="Theme.GestaoEPI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- cores usadas pelo Material / status bar / janela -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/headerBackground</item>
+        <item name="android:windowBackground">@color/bg</item>
+
+        <!-- opcional: surface / onSurface se seu design usar -->
+        <item name="colorSurface">@color/card_background</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
+    </style>
+</resources>

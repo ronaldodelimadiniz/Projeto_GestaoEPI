@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 25 160 100" width="200" height="200">
+  <!-- Capacete de Segurança EPI -->
+  <defs>
+    <style>
+      .helmet-outline { fill: white; stroke: black; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .helmet-detail { fill: none; stroke: black; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  
+  <!-- Corpo principal do capacete (cúpula) -->
+  <path class="helmet-outline" d="M 100 40 
+    C 60 40, 40 65, 35 95
+    L 35 110
+    L 165 110
+    L 165 95
+    C 160 65, 140 40, 100 40 Z"/>
+  
+  <!-- Crista central no topo -->
+  <rect class="helmet-outline" x="92" y="30" width="16" height="35" rx="4"/>
+  
+  <!-- Suporte lateral esquerdo -->
+  <path class="helmet-detail" d="M 60 50 L 55 65"/>
+  <circle class="helmet-outline" cx="55" cy="68" r="3"/>
+  
+  <!-- Suporte lateral direito -->
+  <path class="helmet-detail" d="M 140 50 L 145 65"/>
+  <circle class="helmet-outline" cx="145" cy="68" r="3"/>
+  
+  <!-- Aba inferior -->
+  <ellipse class="helmet-outline" cx="100" cy="110" rx="75" ry="12"/>
+  
+  <!-- Suporte quadrado esquerdo na aba -->
+  <rect class="helmet-outline" x="28" y="106" width="12" height="8" rx="1"/>
+  
+  <!-- Suporte quadrado direito na aba -->
+  <rect class="helmet-outline" x="160" y="106" width="12" height="8" rx="1"/>
+  
+  <!-- Linha horizontal de ventilação/detalhe na aba -->
+  <line class="helmet-detail" x1="85" y1="115" x2="115" y2="115"/>
+  
+  <!-- Linha de suporte horizontal inferior -->
+  <path class="helmet-outline" d="M 40 118 
+    L 50 122
+    L 150 122
+    L 160 118"/>
+    
+  <!-- Detalhes de ajuste interno (linhas verticais suaves) -->
+  <line class="helmet-detail" x1="70" y1="100" x2="70" y2="110" opacity="0.5"/>
+  <line class="helmet-detail" x1="130" y1="100" x2="130" y2="110" opacity="0.5"/>
+</svg>

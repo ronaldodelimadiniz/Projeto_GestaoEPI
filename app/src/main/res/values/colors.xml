@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Básicas / tema -->
+    <color name="primaryColor">#1F3F73</color>         <!-- usado em alguns layouts como primaryColor -->
+    <color name="headerBackground">#1F3F73</color>     <!-- headerBackground (usado no menu) -->
+    <color name="white">#FFFFFF</color>
+    <color name="bg">#F4F5F9</color>
+    <color name="login_background">#F4F5F9</color>
+
+    <!-- Textos -->
+    <color name="textPrimary">#1F2E46</color>
+    <color name="title">#1F2E46</color>
+    <color name="textSecondary">#97A3B7</color>
+    <color name="subtitle">#97A3B7</color>
+
+    <!-- Inputs / cards -->
+    <color name="input_background">#F7F9FC</color>
+    <color name="input_border">#E6EDF7</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Acentos -->
+    <color name="accentBlue">#3B73B9</color>
+    <color name="accentOrange">#F28C3A</color>
+    <color name="accentRed">#E55353</color>
+    <color name="accentGray">#667085</color>
+
+    <!-- Tons claros para containers -->
+    <color name="lightBg">#F0F4FF</color>
+    <color name="lightOrange">#FFF3E6</color>
+    <color name="lightRed">#FDEDED</color>
+    <color name="lightGray">#F0F2F7</color>
+    <color name="grayLight">#C4CAD6</color>
+    <color name="grayDark">#667085</color>
+</resources>
